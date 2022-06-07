@@ -9,3 +9,6 @@ document.write(B+A)                                 //concatinate printing varia
 var family = "Jones", dad = "Phil", mom = "Sally";  //assign multiple variables in a row
 document.write(mom);
 document.write(2 + 2);                              //write an expression
+function displayDate() {                            //button click event
+    document.getElementById("demo").innerHTML = Date();
+}
